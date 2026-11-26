@@ -1,8 +1,8 @@
 # bespoke-ui
 
-Claude Code 스킬. 기본 컴포넌트(카드 · 배지 · 탭 · KPI 타일 · 모달 · 스텝퍼)와 기본 배치(헤더 + 사이드바 + KPI 줄 + 카드 그리드)를 습관으로 깔지 않고, 과업과 데이터의 모양에서 컴포넌트 형태와 화면 뼈대를 새로 짓는다. 대담함은 구조에, 표면은 미니멀하게.
+과업이 시작되는 자리부터 완료까지 살피고, 화면 뼈대와 입력 흐름을 비교하는 스킬이다. 폴딩·드롭다운·일괄 입력 폼·대시보드형 배치는 사용자가 정보를 보고 판단하는 순서와 맞는지 확인한 뒤 선택한다. 대담함은 구조에, 절제는 표면에.
 
-A Claude Code skill for designing task-specific component forms and layout skeletons instead of stock card/badge/tab/dashboard patterns. Visual world and polish are left to `impeccable`.
+A skill for comparing task-specific layouts and input flows before choosing controls. Use `impeccable` for visual direction and polish where available.
 
 ## 설치
 
@@ -18,15 +18,15 @@ git clone https://github.com/a7garden/bespoke-ui ~/.claude/skills/bespoke-ui
 
 | 모드 | 하는 일 |
 | - | - |
-| `explore` (기본) | 과업 해부, 결정 메모, 2~3안 스케치. 코드는 고치지 않는다 |
-| `build` | 결정 메모를 짧게 남기고 구현한 뒤 그려서 확인한다 |
+| `explore` (기본) | 과업을 해부하고 구조가 다른 2~3안을 스케치해 하나를 고른다 |
+| `build` | 채택 이유를 남기고 구현한 뒤 실제 과업을 따라가며 확인한다 |
 | `review` | 습관으로 깐 컴포넌트와 배치를 찾아 대체안을 낸다 |
 
 ## 파일
 
 - `SKILL.md` 스킬 본문
 - `references/data-shapes.md` 데이터 모양별 형태
-- `references/patterns.md` 패턴 모음
+- `references/patterns.md` 배치 비교와 입력 흐름 예시
 
 ## License
 
