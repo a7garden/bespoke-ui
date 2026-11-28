@@ -27,8 +27,8 @@ git clone https://github.com/a7garden/bespoke-ui ~/.claude/skills/bespoke-ui
 - `SKILL.md` 스킬 본문
 - `references/data-shapes.md` 데이터 모양별 형태
 - `references/patterns.md` 배치 비교와 입력 흐름 예시
-- `references/visual-craft.md` 시각 방향, 문구, 렌더 검수
-- `references/platform-interaction.md` 버튼과 스크롤, 모바일 안전 영역, 데스크톱 창 제어, 컨텍스트 UI, 로딩
+- `references/visual-craft.md` 시각 방향, 문구, 모션, 렌더 검수
+- `references/platform-interaction.md` 버튼과 스크롤, 모바일 안전 영역, 데스크톱 창 제어, 컨텍스트 UI, 로딩, 드래그 대안과 상태 전달
 
 ## License
 
